@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": "pj1",
+    "name": "project1",
+    "description": "aaaaa",
+    "tasks": [],
+    "employee": []
+  },
+  {
+    "id": "2",
+    "name": "222",
+    "description": "aadd",
+    "tasks": [],
+    "employee": []
+  },
+  {
+    "id": "3",
+    "name": "fdfs",
+    "description": "rrtt",
+    "tasks": [],
+    "employee": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "dấd",
+    "description": "ffff",
+    "tasks": [],
+    "employee": [
+      "1"
+    ]
+  }
+]

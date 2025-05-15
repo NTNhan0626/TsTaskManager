@@ -50,6 +50,8 @@ export class ProjectService {
         }else{
             return false;
         }
+        FileHandle.writeToFile("Project.json", this.projects);
+
         return true;
     }
 }

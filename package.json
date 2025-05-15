@@ -5,6 +5,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "@types/readline-sync": "^1.4.8",
     "fuse.js": "^7.1.0",
     "readline-sync": "^1.4.10"
   }

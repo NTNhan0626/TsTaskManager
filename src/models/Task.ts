@@ -8,14 +8,14 @@ export class Task {
         public dueDate?: string,
         public assigneeIds: string[] = [],
         public parentTaskId:string | null = null,
-        public subTasks: Task[] = []
+        public subTaskIds: string[]=[]
     ) { }
 
     markComplete(): void {
         this.completed = true;
     }
 
-    addSubTask(subTask: Task): void {
-        this.subTasks.push(subTask);
+    addSubTask(subTask: string): void {
+        this.subTaskIds.push(subTask);
     }
 }
